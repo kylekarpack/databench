@@ -130,7 +130,7 @@ for (const file of csvFiles) {
 			},
 
 			datafusion: async () => {
-				const aggregatedDf = datafusionDf.aggregate(
+				const aggregatedDf = datafusionDf.clone().aggregate(
 					[],
 					[
 						avg(col("Index")).alias("avg_index"),
