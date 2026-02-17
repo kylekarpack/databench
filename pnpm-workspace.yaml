@@ -2,6 +2,8 @@ onlyBuiltDependencies:
   - '@tensorflow/tfjs-node'
   - b
   - c
+  - core-js
   - d
+  - duckdb
   - k
   - u

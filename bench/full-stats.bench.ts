@@ -139,7 +139,6 @@ for (const file of csvFiles) {
 						approxMedian(col("Index")).alias("median_index"),
 					],
 				);
-				await aggregatedDf.show();
 
 				// The result is an Arrow Table
 				return aggregatedDf;
