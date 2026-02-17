@@ -1,0 +1,7 @@
+onlyBuiltDependencies:
+  - '@tensorflow/tfjs-node'
+  - b
+  - c
+  - d
+  - k
+  - u
